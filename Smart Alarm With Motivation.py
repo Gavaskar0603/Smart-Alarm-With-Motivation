@@ -3,7 +3,7 @@ import random as r
 import datetime as dt
 import pygame as pg
 from pygame import mixer
-import warnings
+
 print(t.ctime())
 q=["Every morning, you have two choices: continue to sleep with your dreams or wake up and chase them.",
    "The best way to start the day is with a grateful heart.",
