@@ -1,3 +1,9 @@
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'  # The value can be anything
+
+import warnings
+warnings.filterwarnings("ignore")
+
 import time as t
 import random as r
 import datetime as dt
@@ -66,6 +72,7 @@ while True:
         mixer.music.play()
         break
     t.sleep(1)
+#I'm just trying tamil quotes are working are not
 '''
 q=["நம்பிக்கையே எல்லாம், வழிகாட்டும் பொன்மொழிகள்","எத்தனை இலக்குகளை அடைந்திருந்தாலும், அடுத்த இலக்கை அமைத்துக்கொள்.","ஏழ்மைதான் என் வாழ்வின் மிகப்பெரிய உந்துதலாக இருந்தது."]
 print(r.choice(q))
